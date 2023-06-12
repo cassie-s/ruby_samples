@@ -7,7 +7,9 @@ end
 class Ezine < Magazine
 end
 
-mag = Magzine.new
+mag = Magazine.new
 mag.publisher = "David A. Black"
 mag.editor = "Joe Loe"
 puts "mag is published by #{mag.publisher} and edited by #{mag.editor}"
+puts mag.is_a?(Magazine)
+puts mag.is_a?(Publication)
