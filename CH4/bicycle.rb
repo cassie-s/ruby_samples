@@ -18,3 +18,11 @@ class Tandem < Bicycle
     puts "This bike is available!"
   end
 end
+
+bike1 = Bicycle.new
+puts bike1.gears
+puts bike1.rent
+bike2 = Tandem.new(3)
+puts bike2.gears
+puts bike2.wheels
+puts bike2.seats
